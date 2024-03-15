@@ -1,0 +1,149 @@
+/* @keyframes clu {
+
+    10%{
+        background-image: url(11.webp);
+        background-repeat: no-repeat;
+        background-size: 400px 600px;
+        transition: 5s;
+    }
+    20%{
+        background-image: url(12.jpeg);
+        background-repeat: no-repeat;
+        background-size: 400px 600px;
+        transition: 5s;
+    }
+    30%{
+        background-image: url(13.jpeg);
+        background-repeat: no-repeat;
+        background-size: 400px 600px;
+        transition: 5s;
+    }
+    40%{
+        background-image: url(14.jpeg);
+        background-repeat: no-repeat;
+        background-size: 400px 600px;
+        transition: 5s;
+    }
+    50%{
+        background-image: url(15.jpeg);
+        background-repeat: no-repeat;
+        background-size: 400px 600px;
+        transition: 5s;
+    }
+    80%{
+        background-image: url(16.webp);
+        background-repeat: no-repeat;
+        background-size: 400px 600px;
+        transition: 5s;
+    }
+    90%{
+        background-image: url(17.webp);
+        background-repeat: no-repeat;
+        background-size: 400px 600px;
+        transition: 5s;
+    }
+    100%{
+        background-image: url(18.jpeg);
+        background-repeat: no-repeat;
+        background-size: 400px 600px;
+        transition: 5s;
+    }
+
+    
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    width: 400px;
+    height: 600px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    left: 100px;
+    top: 100;
+    background-image: url(16.webp);
+    background-repeat: no-repeat;
+    background-size: 400px 600px;
+    /* animation-name: clu;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; */
+
+}
+#first{
+    width: 350px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 25px;
+    top: 30px;
+    padding: 10px;
+    font-size: 17px;
+}
+#second{
+    width: 350px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 25px;
+    top: 90px;
+    padding: 10px;
+    font-size: 17px;
+}
+#va{
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    position: absolute;
+    top: 150px;
+    left: 165px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.ans{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 28px;
+    top: 154px;
+}
+.btn{
+    width: 400px;
+    height: 380px;
+    position: absolute;
+    top: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    width: 80px;
+    height: 80px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 4px;
+}
+.btn button:hover{
+    background-color: gray;
+}
